@@ -26,4 +26,4 @@ def is_failed_for_absence(absences):
 def approval_grade(grade):
     ag = 10 - grade
     if ((grade + ag) / 2) >= 5:
-        return ag
+        return ag * 10
