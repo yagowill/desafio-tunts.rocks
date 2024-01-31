@@ -22,7 +22,7 @@ def test_is_failed_for_absence_false():
     assert is_failed_for_absence(15) == False
     
 def test_approval_grade_five():
-    assert approval_grade(5) == 5
+    assert approval_grade(5) == 50
     
 def test_approval_grade_six():
-    assert approval_grade(6) == 4
+    assert approval_grade(6) == 40
